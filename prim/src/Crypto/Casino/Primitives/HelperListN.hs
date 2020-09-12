@@ -1,3 +1,4 @@
+{-# LANGUAGE NoStarIsType  #-}
 {-# LANGUAGE GADTs         #-}
 {-# LANGUAGE DataKinds     #-}
 {-# LANGUAGE TypeFamilies  #-}

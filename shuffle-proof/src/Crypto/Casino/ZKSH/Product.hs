@@ -15,6 +15,7 @@
 {-# LANGUAGE AllowAmbiguousTypes #-}
 {-# LANGUAGE OverloadedStrings #-}
 {-# LANGUAGE DeriveGeneric #-}
+{-# LANGUAGE NoStarIsType #-}
 module Crypto.Casino.ZKSH.Product
     where
 

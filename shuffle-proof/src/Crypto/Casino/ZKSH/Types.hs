@@ -9,6 +9,7 @@
 {-# LANGUAGE MultiWayIf #-}
 {-# LANGUAGE FlexibleContexts #-}
 {-# LANGUAGE AllowAmbiguousTypes #-}
+{-# LANGUAGE NoStarIsType #-}
 {-# LANGUAGE DeriveGeneric #-}
 module Crypto.Casino.ZKSH.Types
     ( H

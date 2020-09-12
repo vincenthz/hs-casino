@@ -28,13 +28,12 @@ module Crypto.Poker
     ) where
 
 import           GHC.TypeLits
-import           Control.Monad (when)
+import           Control.Monad (when, fail)
 import           Data.Proxy
 import           Basement.Nat
 import           Basement.Bounded
 import           Basement.Types.OffsetSize
 import           Basement.Compat.Bifunctor
-import           Basement.Imports (IsList(..))
 import           Foundation.List.ListN (ListN)
 import qualified Foundation.List.ListN as ListN
 import           Foundation
@@ -44,7 +43,13 @@ import qualified Crypto.Casino.Primitives.TEG as TEG
 import qualified Crypto.Casino.Primitives.SIG as SIG
 import qualified Crypto.Casino.Primitives.Permutation as Permutation
 import qualified Crypto.Casino.Primitives.Commitment as Commitment
-import           Crypto.Casino.ZKSH
+import Crypto.Casino.ZKSH
+    ( Shuffled(Shuffled),
+      UnShuffled(UnShuffled),
+      Witness(Witness),
+      ShuffleProof,
+      runShuffle,
+      shuffleProve )
 import           Crypto.Poker.Card hiding (shuffle)
 import           Crypto.Poker.Hand
 import           Crypto.Poker.Game

@@ -16,6 +16,7 @@
 {-# LANGUAGE AllowAmbiguousTypes #-}
 {-# LANGUAGE DeriveGeneric #-}
 {-# LANGUAGE UndecidableInstances #-}
+{-# LANGUAGE NoStarIsType #-}
 -- TODO move to NormalForm, once gauge get support
 {-# OPTIONS_GHC -fno-warn-orphans #-}
 module Crypto.Casino.Primitives.Matrix

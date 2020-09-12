@@ -1,7 +1,5 @@
-resolver: lts-12.7
+resolver: lts-16.13
 packages:
-- location: prim/
-  extra-dep: true
-- location: shuffle-proof/
-  extra-dep: true
-- location: poker/
+- prim
+- poker
+- shuffle-proof
