@@ -4,7 +4,7 @@ Repository of cryptographic primitives, benchmarks and implementations of our
 research around Multi Party Computation (MPC) and their applications to
 card games.
 
-Our main research papers:
+related main research papers:
 
 * [Kaleidoscope: An Efficient Poker Protocol with Payment Distribution and Penalty Enforcement](https://eprint.iacr.org/2017/899.pdf)
 * [ROYALE: A Framework for Universally Composable Card Games with Financial Rewards and Penalties Enforcement](https://eprint.iacr.org/2018/157.pdf)
